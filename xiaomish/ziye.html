@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/ziye.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/public-foot.css" />
+</head>
+<body>
+	
+	<div id="nav">
+		<div class="nav_box">
+			<ul class="nav_left">
+				<li><a href="#">小米商城</a></li>
+				<li><a href="#">MIUI</a></li>
+				<li><a href="#">lOT</a></li>
+				<li><a href="#">云服务</a></li>
+				<li><a href="#">金融</a></li>
+				<li><a href="#">有品</a></li>
+				<li><a href="#">小爱开放平台</a></li>
+				<li><a href="#">政企服务</li>
+				<li><a href="#">select region</a></li>
+			</ul>
+			<ul class="nav_right">
+				<li><a href="zhuce.html">登录</a></li>
+				<li><a href="denglu.html">注册</a></li>
+				<li><a href="#">消息通知</a></li>
+				<li class="iconfont icon-dingdan2"><a href="gouwuche.html">购物车</a>
+				<ul class="shop_car">
+					<li><b>购物车中还没有商品，赶紧选购吧！</b></li>
+				</ul></li>
+			</ul>
+				</div>
+	</div>	
+
+	<!--nav-->
+	<div id="discount-nav">
+		<div class="discount_box">
+			<ul class="discount_list">
+				<li><a href="">全部商品分类</a></li>
+				<li><a href="">小米手机</a></li>
+				<li><a href="">红米</a></li>
+				<li><a href="">电视</a></li>
+				<li><a href="">笔记本</a></li>
+				<li><a href="">空调</a></li>
+				<li><a href="">新品</a></li>
+				<li><a href="">路由器</a></li>
+				<li><a href="">智能硬件</a></li>
+				<li><a href="">服务</a></li>
+				<li><a href="">社区</a></li>
+			</ul>
+			<form class="search_box">
+				<input name="username" type="text" />			
+					<div class="box1"><a href="#">小米8</a></div>
+					<div class="box2"><a href="#">小米MAX2s</a></div>
+				<button name="btn"></button>
+			</form>
+		</div>
+	</div>
+	<div id="header_box">
+		<span>小米8 屏幕指纹版</span>
+		<ul>
+			<li><a href="#">概述</a></li>
+			<li><a href="#">参数</a></li>
+			<li><a href="#">图集</a></li>
+			<li><a href="#">F码通道</a></li>
+			<li><a href="#">用户评价</a></li>
+			<li><a href="#">立即购买</a></li>
+		</ul>
+	</div>	
+	<!--point-->
+	<div id="point_box">
+		<div class="point_up">
+		<div class="point_in">
+		<span>为方便您购买，请提前登录</span>
+		<span><a href="">立即登录</a></span>
+		<button class="btn1"><a href=""></a></button>
+		</div>
+	</div>
+	</div>
+	<script src="jquery.js"></script>
+	<script>
+	$('.btn1').on('click',function(){
+		$('.point_up').slideToggle();
+	})
+	</script>
+	<!--main-->
+	 <div id="main_box">
+	 	<div class="swiper-container qf-banner main_left">
+		<div class="swiper-wrapper">
+			<div style="background: url(images/xiao1.jpg)no-repeat;" class="swiper-slide bg-image xiao1"></div>
+			<div class="swiper-slide bg-image xiao2"></div>
+			<div class="swiper-slide bg-image xiao3"></div>
+			<div class="swiper-slide bg-image xiao4"></div>
+		</div>
+		 <div class="swiper-button-prev"></div>
+        <!--左箭头-->
+        <div class="swiper-button-next"></div>
+        <!--右箭头-->
+        <div class="swiper-pagination"></div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/js/swiper.min.js"></script>
+		<script>
+        var swiper = new Swiper('.qf-banner', {
+            loop: false,
+            autoplay: false,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable :true,
+            },
+        });
+    </script>
+		<div class="main_right">
+			<div>
+				<h2 class="shop_h2">小米8 青春版</h2>
+				<h3>「新品现货在售1镜面渐变色/ 2400万自拍旗舰/7.5mm超薄机身/6.26"小刘海全面屏/A裸妆美颜/骁龙660AE处理器</h3>
+				<h4 class="shop_h4">1399元</h4>
+			</div>
+			<div>
+				<span class="span1">赠品</span><span class="span2">赠米粉卡，内含100元话费</span>
+			</div>
+			<div>
+				<ul>
+					<li>北京</li>
+					<li>北京市</li>
+					<li>东城区</li>
+					<li>永定门外街道</li>
+					<li>修改</li>
+				</ul><br />
+				<h6>有现货</h6>
+			</div>
+			<span class="small_title1">选择版本</span>
+			<ul class="address_box">
+				<li><span>4GB+64GB 全网通</span><span class="less">1399元</span></li>
+				<li><span>4GB+64GB 全网通</span><span class="less">1399元</span></li>
+				<li><span>4GB+64GB 全网通</span><span class="less">1399元</span></li>
+			</ul>
+			<span class="small_title1">选择颜色</span>
+			<div class="style_color">
+				<ul class="style_color1">
+					<li><a href=""><span><img src="" alt="" /></span><span>深空灰</span></a></li>
+					<li><a href=""><span><img src="" alt="" /></span><span>钻石黑</span></a></li>
+					<li><a href=""><span><img src="" alt="" /></span><span>公主粉</span></a></li>
+				</ul>
+			</div>
+			<span class="small_title1">选择小米提供的保障服务</span>
+			<div class="service_box">
+				<ul class="service_list">
+					<li><a href=""></a></li>
+					<li><a href=""><img src="images/bao.jpg" alt="" /></a></li>
+					<li>
+						 <h3>意外保障服务</h3>
+						 <h4>手机意外摔落/进水/碾压等损坏</h4>
+						 <h5><a href=""><b></b><span>我已阅读服务条款|常见问题<span></a></h5>
+					</li>
+					<li>99元</li>
+				</ul>
+			</div>
+			<div class="service_box">
+				<ul class="service_list">
+					<li><a href="#"></a></li>
+					<li class="thing_images"><a href=""><img src="images/bao.jpg" alt="" /></a></li>
+					<li>
+						 <h3>意外保障服务</h3>
+						 <h4>手机意外摔落/进水/碾压等损坏</h4>
+						 <h5><a href=""><b></b><span>我已阅读服务条款|常见问题<span></a></h5>
+					</li>
+					<li>99元</li>
+				</ul>
+			</div>
+			<div class="important_box">
+			<div class="buy_box">
+				<ul>
+					<li class="thing_name">小米青春版 4GB+64GB 深空灰<span>1399元</span></li>
+					<li>碎屏保障<span>59元</span></li>
+					<li  class="thing_price">总计：1399元</li>
+				</ul>
+			</div>
+			<div class="push_car">
+				<ul>
+					<li class="buy_car"><span>加入购物车</span></li>
+					<li><a href="#">喜欢</a></li>
+				</ul>
+			</div>
+			</div>
+			<ul class="protect_box">
+				<li>7天无理由退货</li>
+				<li>15天质量问题换货</li>
+				<li>365天保修</li>
+			</ul>
+		</div>
+	</div>
+<!--footer-->
+<div id="footer"></div>
+<div id="buttom"></div>
+<script src="jquery.js"></script>
+<script>
+	$('#footer').load('shouye.html #service');
+	$('#buttom').load('shouye.html #foot_big');
+</script>
+<!--<script src="js/ziyeajax.js"></script>-->
+<script src="js/ziye1.js"></script>
+    <script>
+        shoplist.init();
+    </script>
+</body>
+</html>

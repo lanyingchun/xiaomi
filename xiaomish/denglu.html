@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+		<style>
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration: none;}
+img{border:0;display:block;}
+input{outline:none;}
+
+			#header{
+				width:100%;
+				height:79px;
+				padding-top:21px;
+			}
+			.first{
+			  margin-left:136px;
+			  margin-top:22px;
+			}
+			.header_top{
+				width:1136px;
+				height:79px;
+				margin:0 auto;
+				
+			}
+			.header_top li:first-child{
+				float:left;
+			}
+			.header_top li:first-child img{
+				margin-top:4px;
+			}
+			.header_top li:last-child{
+				float:left;
+				margin-left:22px;
+			}
+			.header_top li:last-child a h2{
+				font-size:29px;
+				color:#333333;
+				font-weight:500;
+			}
+			.header_top li:last-child a h6{
+				font-size:9px;
+				color:#8f8f8f;
+			}
+		#banner{
+			width:100%;
+			height:587px;
+		}
+		#banner img{
+			width:100%;
+			height:100%;
+			margin:0 auto;
+		}
+			#check{
+				width:1200;
+				height:588px;
+				position:absolute;
+				top:95px;
+				left:0px;
+				margin:0 auto;
+				
+			}
+			
+			.check_right{
+				width:412px;
+				height:512px;
+				background:#fff;
+				text-align: center;
+				margin-left:842px;
+				margin-top: 35px;
+			}
+			.check_inp{
+			text-align: center;
+			padding:38px;
+			
+			}
+			.check_inp li:first-child a{
+				color:#ef5b00;
+				float:left;
+				
+			}
+			
+			.check_inp li:last-child a{
+				color:#ef5b00;
+				float:right;
+			}
+			.check_box{
+				clear:both;
+				margin-top: 32px;
+			}
+			.check_box input{
+				width:347px;
+				height:49px;
+			}
+			.check_box input:first-child{
+				margin-bottom: 15px;
+			}
+			button{
+				width:347px;
+				height:49px;
+				background: #ef5b00;
+				margin-top:22px;
+				border:none;
+			}
+			.check_foot{
+				width:347px;
+				height:17px;
+				padding-top:13px;
+				margin:0 auto;
+			}
+			.check_foot span:first-child{
+				float:left;
+			}
+			.check_foot span:last-child{
+				float:right;
+			}
+			.check_foot span:last-child:hover a{
+				color:#ef5b00;
+			}
+			.check_foot span:first-child a{
+				font-size:12px;
+				color:#ef5b00;
+			}
+			.check_foot span:last-child a{
+				font-size:12px;
+				color:#999999;
+			}
+			#check img{
+				margin-top:20px;
+				margin-left:85px;
+			}
+			 .order {
+			   height: 30px;
+			   line-height: 30px;
+			   text-align: center;
+			   margin-top: 70px;
+			}
+			 .order .line {
+			   display: inline-block;
+			   width: 160px;
+			   border-top: 1px solid #ccc ;
+			}
+			.order .txt {
+				font-size:12px;
+			   color: #bbbbbb;
+			   vertical-align: middle;
+			}
+			#foot{
+				width:100%;
+				height:152px;
+				background: #fff;
+			}
+			.foot_box{
+				width:569px;
+				height:79px;
+				margin:0 auto;
+				padding-top:73px;
+			}
+			.foot_box .foot_top{
+				margin-left: 124px;
+			}
+			.foot_box .foot_top li{
+				float:left;
+				padding-left:12px;
+				padding-right:12px;
+				 background: url(images/jt.jpg)no-repeat center right;
+			}
+			.foot_box .foot_top li:last-child{
+				background: none;
+			}
+			.foot_box .foot_top li a{
+				display: block;
+				font-size:12px;
+				color:#757575;
+			}
+			.foot_box .foot_bottom li{
+				float:left;
+				margin-top:11px;
+			}
+			.foot_box .foot_bottom li:first-child{
+				margin-left:30px;
+			}
+			.foot_box .foot_bottom li a{
+				font-size:12px;
+				color:#757575;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!--header-->
+	<div id="header">
+		
+		<ul class="header_top">
+			<li><img src="images/mm.jpg" alt="" /></li>
+			<li><a href="denglu.html"><h2>小米商城</h2><h6>让每个人都能享受科技的乐趣</h6></a></li>
+			
+		</ul>
+	</div>	
+	<!--banner-->
+	<div id="banner">
+		<img src="images/zhuce2.jpg" alt="" />
+	</div>
+	
+	<div id="check">
+		<div class="check_right">
+		<ul class="check_inp">
+			<li><a href="#">账号登录</a></li>
+			<li><a href="#">密码登录</a></li>	
+		</ul>
+			
+		<form class="check_box" onsubmit="return false">
+		    <input name="username" type="text" required="required" placeholder="手机号/邮箱/小米id"/><br />
+			<input name="password" type="password" required="required" placeholder='密码' /><br />
+			<button class="btn" type="submit" name="btn">登录</button>
+			</form>
+			<div class="check_foot">
+				<span><a href="#">手机短信登录/注册</a></span>
+				<span><a href="newzhuce.html">立即注册|忘记密码</a></span>
+			</div>
+	<div class="order">
+   	<span class="line"></span>
+   	<span class="txt">其它方式登录</span>
+   	<span class="line"></span>
+</div>
+		<img src="images/zhuce3.jpg" alt="" />	
+	</div>
+	</div>
+	<!--foot-->
+	<div id="foot">
+		<div class="foot_box">
+			<ul class="foot_top">
+				<li><a href="">简体</a></li>
+				<li><a href="">繁体</a></li>
+				<li><a href="">English</a></li>
+				<li><a href="">常见问题</a></li>
+				<li><a href="">隐私政策</a></li>
+			</ul>
+			<ul class="foot_bottom">
+				<li><a href="">小米公司版权所有-京ICP备10046444-</a></li>
+				<li><a href=""><img src="images/ga.jpg" alt="" /></a></li>
+				<li><a href="">京公网安备11010802020134号-京ICP证110507号</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--check-->
+	
+	
+	<script src="js/ajax1.js"></script>
+	<script src="js/denglu.js"></script>
+	<script>
+	login.init('.check_box');
+	</script>
+	</body>
+</html>

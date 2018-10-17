@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+		<link rel="stylesheet" href="css/newzhuce.css" />
+<body>
+	<div id="big_box">
+		<div class="header"></div>
+		<h2>注册小米账号</h2>
+		<form class="check" onsubmit="return false">
+			<h5>用户名</h5>
+			<div class="check_one"><input name="username" class="inp_first" type="text" placeholder="请输入4-10位由数字 字母 下划线组成的用户名"/><button class="btn_top"></button></div>
+			<h6 class="small_font">请输入4-10位由数字 字母 下划线组成的用户名</h6>
+			<h4>注册成功后，用户名将不能修改</h4>
+			<h5>密码</h5>
+			<div class="check_two"><button class="btn_center">+86</button><input name="password" type="password" class="inp_two" placeholder="密码至少要有一个字母"/></div>
+			<h3 class="big_font">密码至少要有一个字母</h3>
+			<button class="btn_buttom" name="login-btn">立即注册</button>
+			
+		</form>
+		<div class="artical">
+				<span>注册账号即表示您同意并愿意遵守小米</span>
+				<b>用户协议</b>
+				<span>和</span>
+				<b>隐私政策</b>	
+			</div>
+	</div>
+	<div id="foot">
+		<div class="foot_box">
+			<ul class="foot_top">
+				<li><a href="">简体</a></li>
+				<li><a href="">繁体</a></li>
+				<li><a href="">English</a></li>
+				<li><a href="">常见问题</a></li>
+				<li><a href="">隐私政策</a></li>
+			</ul>
+			<ul class="foot_bottom">
+				<li><a href="">小米公司版权所有-京ICP备10046444-</a></li>
+				<li><a href=""><img src="images/ga.jpg" alt="" /></a></li>
+				<li><a href="">京公网安备11010802020134号-京ICP证110507号</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/zhuceajax.js"></script>
+	<script src="js/zhuce.js"></script>
+	<script>
+        register.init('.check');
+    </script>
+</body>
+</html>
